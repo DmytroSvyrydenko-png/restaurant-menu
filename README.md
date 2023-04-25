@@ -1,2 +1,6 @@
 # restaurant-menu
-Dmytro Svyrydenko, Andrejs Sokoļuks, Alīna Šehlova, Jana Ašmenska. Salaspils 1.vidusskola. 12.b.
+Salaspils 1.vidusskola. 12.b.
+Dmytro Svyrydenko - programmētājs. 
+Andrejs Sokoļuks - programmētājs. 
+Alīna Šehlova - programmētāja.
+Jana Ašmenska - programmētāja.
