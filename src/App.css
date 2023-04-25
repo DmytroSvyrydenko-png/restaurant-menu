@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --main-font: 'Space Mono', monospace;
+  --btn-log-color: #6ad7c7;
+  --btn-done-color: #cf0303c0;
+  --btn-txt-hvr-color: #ffffff;
+  --btn-add-color: #69cf03c0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font);
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding: 10px;
+  min-height: calc(100vh - 100px);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+  font-size: 2.7rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+input {
+  width: 450px;
+  padding: 0.8em;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 0.77em;
+  cursor: pointer;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  transition: all .3s linear;
+}
+
+input,
+button {
+  font-size: 1em;
+  appearance: none;
+  color: currentcolor;
+  background: transparent;
+  border: 1px solid #828691;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
